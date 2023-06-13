@@ -47,3 +47,8 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# Model objects
+model_objects/
+#Figures
+figures/
