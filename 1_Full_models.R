@@ -13,8 +13,6 @@ length(unique(rai_noSame$Project.ID))
 length(unique(rai_noSame$Species)) 
 length(unique(paste(rai_noSame$Species, rai_noSame$Project.ID))) 
 
-
-
 # Data preparation
 # Set factors and specify reference level 
 rai_noSame$Treatment_Activity_NoSame <- as.factor(rai_noSame$Treatment_Activity_NoSame)
